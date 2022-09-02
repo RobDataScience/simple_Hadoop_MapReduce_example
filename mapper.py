@@ -11,10 +11,7 @@ for line in sys.stdin:
 
     # split the line into words; splits on any whitespace
     words = line.split()
-
-    # output tuples (word, 1) in tab-delimited format
-    stopwords = set()
-
+    
     # notice the loop is different
 
     for word in words:
